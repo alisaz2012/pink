@@ -1,10 +1,46 @@
-.header{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.header {
     background-image: url('./img/back-desktop.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 850px;
 }
-body{
+
+body {
+    font-family: var(--font-family);
     margin: 0;
+}
+
+:root {
+    --font-family: "Roboto", sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.container-main {
+    max-width: 940px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+nav a {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

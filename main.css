@@ -46,4 +46,50 @@ nav{
     padding: 27px 0;
     background: rgba(0, 0, 0, 0.3);
 }
-header{}
+header{
+    position: relative;
+}
+p{
+    margin: 0;
+}
+button{
+    background-color: transparent;
+    outline: none;
+    color: inherit;
+    cursor: pointer;
+}
+.header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+max-width: 300px;
+width: 100%;
+position: relative;
+z-index: 1;
+}
+.header-content h1{
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 50px;   
+}
+.header-content button{
+    border: 3px solid #fff;
+border-radius: 29px;
+width: 300px;
+height: 56px;
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 21px;
+line-height: 86%;
+text-align: center;
+color: #fff;
+margin-bottom: 75px;
+}
+.header-content img{
+    margin-bottom: 50px;
+}

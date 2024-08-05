@@ -93,3 +93,16 @@ margin-bottom: 75px;
 .header-content img{
     margin-bottom: 50px;
 }
+.header-content p{
+    font-family: var(--font-family);
+font-weight: 300;
+font-size: 18px;
+line-height: 133%;
+text-align: center;
+color: #fff;
+}
+.phone-img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}

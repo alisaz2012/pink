@@ -72,8 +72,6 @@ button {
     color: white;
     max-width: 300px;
     width: 100%;
-    position: relative;
-    z-index: 1;
 }
 
 .header-content h1 {
@@ -127,6 +125,14 @@ button {
     max-width: 780px;
     width: 100%;
     margin: 77px auto 72px;
+}
+
+.information {
+    background-image: url("./img/grey-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 230px;
+    background-position-y: 230px;
 }
 
 .information-phones {

@@ -140,7 +140,8 @@ button {
     justify-content: space-between;
     align-items: center;
 }
-.information-phones__card{
+
+.information-phones__card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -150,34 +151,71 @@ button {
     height: 440px;
 
 }
-.information-phones__card img{
-    width: 300px ;
+
+.information-phones__card img {
+    width: 300px;
     height: 490px;
     margin-bottom: -135px;
 }
-.information-phones__title{
+
+.information-phones__title {
     font-family: var(--font-family);
-font-weight: 700;
-font-size: 30px;
-line-height: 100%;
-text-align: center;
-color: #000;
-margin-bottom: 35px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
+    text-align: center;
+    color: #000;
+    margin-bottom: 35px;
 }
-.information-phones__description{
+
+.information-phones__description {
     font-family: var(--font-family);
-font-weight: 400;
-font-size: 18px;
-line-height: 167%;
-text-align: center;
-color: #283645;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+    text-align: center;
+    color: #283645;
 }
-.hours{
+
+.hours {
     padding: 20px 0 70px;
     background-color: #f2f2f2;
 }
-.hours-content{
-display: flex;
-align-items: center;
-justify-content: space-between;
+
+.hours-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hours-content img {
+    margin-right: 71px;
+}
+
+.hours-content__title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
+    color: #000;
+    margin-bottom: 37px;
+}
+
+.hours-content__description {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+    color: #283645;
+    margin-bottom: 47px;
+}
+
+.hours-content__link {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #d22856;
 }

@@ -254,3 +254,11 @@ button {
     text-decoration-skip-ink: none;
     color: #d22856;
 }
+.revus{
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+.swiper-slide{
+display: flex;
+flex-direction: column;
+}

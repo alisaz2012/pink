@@ -78,3 +78,11 @@
         left: -80px;
     }
 }
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #BFC3C7;
+}
+
+.swiper {
+}

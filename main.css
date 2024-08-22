@@ -139,6 +139,41 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+.information-phones__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 300px;
+    width: 100%;
+    position: relative;
+    height: 440px;
+}
+
+.information-phones__card img {
+    width: 300px;
+    height: 490px;
+    margin-bottom: -135px;
+}
+
+.information-phones__title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1;
+    text-align: center;
+    color: #000;
+    margin-bottom: 35px;
+}
+
+.information-phones__description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.66667;
+    text-align: center;
+    color: #283645;
 }
 
 .information-phones__card {

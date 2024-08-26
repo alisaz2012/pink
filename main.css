@@ -254,11 +254,52 @@ button {
     text-decoration-skip-ink: none;
     color: #d22856;
 }
-.revus{
+
+.revus {
     padding-top: 70px;
     padding-bottom: 40px;
 }
-.swiper-slide{
-display: flex;
-flex-direction: column;
+
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    width: 79px;
+    height: 63px;
+    margin-bottom: 58px;
+}
+
+.revus-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+    text-align: center;
+    color: #283645;
+    max-width: 688px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.revus-name {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 125%;
+    text-align: center;
+    color: #000;
+    margin-bottom: 17px;
+}
+
+.revus-bio {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+    text-align: center;
+    color: #283645;
 }

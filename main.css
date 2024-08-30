@@ -303,3 +303,12 @@ button {
     text-align: center;
     color: #283645;
 }
+
+.price {
+    background-image: url('./img/grey-background.png');
+    padding-top: 150px;
+    padding-bottom: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 70px;
+}
